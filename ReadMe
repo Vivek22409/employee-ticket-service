@@ -1,1 +1,16 @@
+###################################### For Employee-Ticket Portal: ################################################
+I have created two independent services -
+1) EmployeeService 
+2) Ticket Service. 
 
+Employee service APIs are exposed to public and ticket service is internally used by employee service thorugh RestTemplate.
+For UI, I have used angular which consumes APIs from Employee service. 
+
+###########################GithubLink for Employee-Ticket-Portal##################################################
+https://github.com/Vivek22409/employee-ticket-service
+
+#########################ActuatorEndPoints########################################################################
+http://localhost:1000/actuator
+
+#########################SwaggerEndpoints#########################################################################
+http://localhost:1000/v2/api-docs
