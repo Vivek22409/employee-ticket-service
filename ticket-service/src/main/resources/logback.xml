@@ -3,7 +3,7 @@
 
 	<include resource="org/springframework/boot/logging/logback/base.xml" />
 	<property name="HOME_LOG"
-		value="C:/Users/vivekkumar02/OneDrive - Nagarro/Desktop/IBM/employee-service.log" />
+		value="C:/Users/vivekkumar02/OneDrive - Nagarro/Desktop/IBM/ticket-service.log" />
 
 	<!--<appender name="Console" class="ch.qos.logback.core.ConsoleAppender"> 
 		<layout class="ch.qos.logback.classic.PatternLayout"> <Pattern> %d %p %c{1.} 
@@ -18,7 +18,7 @@
 	<appender name="FILE-ROLLING"
 		class="ch.qos.logback.core.rolling.RollingFileAppender">
 		<!-- <file>${HOME_LOG}</file> -->
-		<file>${user.home}/employee-service.log</file>
+		<file>${user.home}/ticket-service.log</file>
 
 		<rollingPolicy
 			class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
