@@ -1,13 +1,3 @@
-The folder contains source code of two microservices. It also contains APIs file and screenshots of UI of app. 
-
-Steps to run:
-1) Import the code of ticket service as maven project - will run at - localhost:1000
-2) Import the code of empoyee service as maven project - will run at - localhost:2000
-3) Compile angular app code on your local and make it up - will run at - localhost:4200
-4) Now open login page of app - http://localhost:4200/login
-5) Check the log files incase of any error - will generate in current user directory
-
-
 ######################################For Employee-Ticket Portal:################################################
 I have created two independent services -
 1) EmployeeService 
